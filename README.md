@@ -1,71 +1,66 @@
+
+
 # Scholar's Referral Chat
 
-**Scholar's Referral Chat** is an AI-powered platform designed to support scholars, researchers, and students in exploring, analysing, and discussing academic documents. Built with Python and the Streamlit framework, the app offers a seamless and interactive way to work with scholarly content using advanced AI technologies.
+Scholar's Referral Chat is an AI-powered platform designed to assist scholars, researchers, and students in exploring, discussing, and sharing academic documents. Built with advanced AI technologies and developed using the Streamlit library, this application provides a user-friendly interface for seamless interaction with scholarly materials.
 
-![Demo](demo.gif)
+![Scholar's Referral Chat Demo](demo.gif)
 
----
+## Features
 
-## ✨ Key Features
+### 1. Document Analysis
+- **Upload**: Easily upload research papers, articles, or any text-based documents.
+- **Analysis**: AI-powered system extracts main topics, keywords, and references.
 
-### 📄 Document Analysis
+### 2. Smart Recommendations
+- **Related Resources**: Receive smart recommendations for related articles and papers.
 
-* **Upload** academic papers, articles, or text-based documents.
-* **Extract** key topics, keywords, and references using AI.
+### 3. Chat with Context
+- **Highlight and Discuss**: Initiate discussions by highlighting specific sections.
+- **Integrated Chat**: Exchange ideas, ask questions, and share insights in context.
 
-### 🤖 Smart Recommendations
+### 4. AI Summarization and Insights
+- **Summarization**: Generate answers from your questions towards of lengthy documents.
+- **Insights**: Get analysis on document structure, key themes, and findings.
 
-* Discover **related resources** such as similar articles and research papers.
+### 5. Collaborative Annotations
+- **Annotate Together**: Collaboratively annotate and mark-up documents.
+- **Comments and Highlights**: Add comments and highlights for enhanced understanding.
 
-### 💬 Contextual Chat
+### 6. AI Model
+- **Considerations**: You can use any model with your relevance of project
 
-* **Highlight text** to start focused discussions.
-* **Chat interface** lets you ask questions or share insights with context.
+## How to Use
 
-### 📚 Summarisation & Insights
+1. **Installation**: Clone the repository and install dependencies:
+   ```
+   git clone https://github.com/kasiviswanathanR/scholar-s-referral-chat.git
+   cd scholars-referral-chat
+   pip install -r requirements.txt
+   ```
 
-* Generate **summaries** and **answers** from lengthy texts.
-* Gain **analytical insights** on structure, themes, and conclusions.
+2. **Run the App**:
+   ```
+   streamlit run app.py
+   ```
+   Open your browser and go to `http://localhost:8501` to view the app.
 
-### 👥 Collaborative Annotation
+3. **Upload Documents**:
+   - Click the "Upload" button to upload your research papers or articles.
+   - The AI will analyze the documents and provide insights.
 
-* **Annotate together** with comments and highlights.
-* Promote group understanding and peer-to-peer learning.
+4. **Engage with Content**:
+   - Highlight specific text to start discussions.
+   - Use the integrated chat for contextual conversations.
 
-### 🧠 Model Flexibility
+5. **Collaborate and Learn**:
+   - Collaborate with peers on annotations and mark-ups.
+   - Gain new insights from summaries and recommendations.
 
-* Compatible with any AI model suited to your project requirements.
+## Technologies Used
 
----
+- Python
+- Streamlit
+- Flask
+- AI/ML models (for document analysis and summarization)
 
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/kasiviswanathanR/scholar-s-referral-chat.git
-cd scholars-referral-chat
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the Application
-
-```bash
-streamlit run app.py
-```
-
-Visit `http://localhost:8501` in your browser to use the app.
-
----
-
-## 🛠 Technologies Used
-
-* **Python**
-* **Streamlit**
-* **Flask**
-* **AI/ML models** for summarisation and document understanding
